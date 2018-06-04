@@ -7,7 +7,11 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="InvertedIndex" />
+        <module name="youngcircle" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="youngcircle" target="8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
